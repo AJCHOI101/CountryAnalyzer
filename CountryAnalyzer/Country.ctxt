@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Country
+comment0.text=\n\ Write\ a\ description\ of\ class\ Country\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=countryName\ surfaceArea\ totalPopulation\ birthRate\ deathRate\ fertilityRate\ ruralPopulation\ telephoneLines\ mobilePhoneSubscriptions
+comment1.target=Country(java.lang.String,\ double,\ long,\ double,\ double,\ double,\ double,\ double,\ long)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ The\ standard\ toString\ method\ should\ \n\ return\ a\ string\ containing\ the\ country\ \n\ name\ followed\ by\ the\ total\ population\ \n\ in\ parentheses.\n
+comment3.params=
+comment3.target=double\ getFertilityRate()
+comment3.text=\n\ A\ standard\ getter\ for\ the\ fertility\ \n\ rate\ of\ the\ country.\n
+comment4.params=
+comment4.target=double\ getTelephoneLines()
+comment4.text=\n\ \ A\ standard\ getter\ for\ the\ number\ of\ \n\ \ telephone\ lines\ in\ the\ country.\n
+comment5.params=
+comment5.target=double\ getPopulationDensity()
+comment5.text=\n\ This\ method\ computes\ and\ returns\ \n\ the\ population\ density\ for\ the\ country,\ \n\ which\ is\ the\ number\ of\ people\ per\ \n\ square\ kilometer\ of\ area.\n
+comment6.params=
+comment6.target=double\ getUrbanRatio()
+comment6.text=\n\ This\ method\ computes\ and\ returns\ the\ urban\ \n\ ratio,\ which\ is\ the\ urban\ population\ over\ \n\ the\ total\ population.\ Since\ the\ input\ data\ \n\ doesn't\ contain\ the\ urban\ population\ \n\ explicitly,\ you\ will\ first\ have\ to\ calculate\n\ it\ by\ subtracting\ the\ rural\ population\ from\n\ the\ total\ population.\n
+comment7.params=
+comment7.target=double\ populationChange()
+comment7.text=\n\ This\ method\ computes\ and\ returns\ the\ population\ \n\ change,\ defined\ as\ the\ birth\ rate\ minus\ the\ death\ \n\ rate.\n
+comment8.params=
+comment8.target=double\ getMobileRatio()
+comment8.text=\n\ This\ method\ computes\ and\ returns\ the\ ratio\ of\ \n\ the\ number\ of\ mobile\ phone\ subscriptions\ to\ \n\ the\ total\ population\n
+numComments=9
